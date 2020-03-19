@@ -1,0 +1,16 @@
+//temprature in kelvin stored in variable KelvinTemp
+var kelvinTemp = 301;
+
+
+//temprature in celsius stored in variable celsiusTemp
+var celsiusTemp = kelvinTemp - 273.15;
+
+//temprature in fahrenheight stored in variable fahrenheightTemp
+var fahrenheightTemp = celsiusTemp * (9/5) + 32;
+
+
+//round the value of fahrenheight and assign to 'fahrenheight'
+fahrenheightTemp = Math.floor(fahrenheightTemp);
+
+//use string concatenation to leave the message
+console.log('The temprature is ' + fahrenheightTemp + ' degrees fahrenheight');
